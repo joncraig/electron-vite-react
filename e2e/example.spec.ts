@@ -1,3 +1,4 @@
+// https://playwright.dev/docs/writing-tests
 import { test, expect, _electron as electron } from "@playwright/test";
 
 test("homepage has title and links to intro page", async () => {
