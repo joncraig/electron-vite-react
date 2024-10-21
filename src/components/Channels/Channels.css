@@ -1,7 +1,16 @@
+.Channels::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 6px;
+  border: 4px solid rgba(0, 0, 0, 0);
+  background-clip: content-box;
+  min-width: 32px;
+  min-height: 32px;
+}
 .Channels {
   overflow-x: scroll;
   flex: 1;
   display: flex;
+
   .list {
     display: flex;
     gap: 2px;

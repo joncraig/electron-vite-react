@@ -8,6 +8,26 @@ import windowStateKeeper from "electron-window-state";
 const require = createRequire(import.meta.url);
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
+// Shotgrid
+// import { ShotgunApiClient } from "shotgun-nodejs";
+
+// (async function () {
+//   let shotgun = new ShotgunApiClient({
+//     siteUrl: "https://mysite.shotgunstudio.com",
+//     credentials: {
+//       grant_type: "password",
+//       username: "username",
+//       password: "password",
+//     },
+//   });
+
+//   let out = await shotgun.entityRead({
+//     entity: "HumanUsers",
+//     entityId: 3,
+//   });
+//   console.log(out);
+// })();
+
 // The built directory structure
 //
 // ├─┬ dist-electron
